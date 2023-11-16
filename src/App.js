@@ -1,8 +1,9 @@
 import logo from './logo.svg';
-import Count from './components/Counter'
-import Counter2 from './components/Counter2';
-import Counter3 from './components/Counter3';
-import HookStateArray from './components/HookStateArray';
+import Count from './components/UseStatePractice.js/Counter' 
+import Counter2 from './components/UseStatePractice.js/Counter2';
+import Counter3 from './components/UseStatePractice.js/Counter3';
+import HookStateArray from './components/UseStatePractice.js/HookStateArray';
+import EffectExample1 from './components/UseEffectPractice/EffectExample1';
 import './App.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     {/* <Count/>
     <Counter2/>  */}
     {/* <Counter3 /> */}
-    <HookStateArray />
+    {/* <HookStateArray /> */}
+    <EffectExample1 />
     </div>
   );
 }

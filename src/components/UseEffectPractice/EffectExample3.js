@@ -13,6 +13,11 @@ const EffectExample3 = () => {
   useEffect(()=>{
     console.log("useEffect is called")
     window.addEventListener("mousemove", logMousePosition)
+
+    return ()=>{
+        window.removeEventListener("mousemove", logMousePosition)
+        console.log('component is unmounted, and the code is clean');
+    }
   },[])
   return <div>
     <p>mouse position</p>

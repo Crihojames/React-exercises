@@ -6,6 +6,7 @@ import HookStateArray from './components/UseStatePractice.js/HookStateArray';
 import EffectExample1 from './components/UseEffectPractice/EffectExample1';
 import EffectExample2 from './components/UseEffectPractice/EffectExample2';
 import EffectExample3 from './components/UseEffectPractice/EffectExample3';
+import MouseContainer from './components/UseEffectPractice/MouseContainer';
 import './App.css';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     {/* <HookStateArray /> */}
     {/* <EffectExample1 /> */}
     {/* <EffectExample2/> */}
-    <EffectExample3 />
+    {/* <EffectExample3 /> */}
+    <MouseContainer/>
     </div>
   );
 }

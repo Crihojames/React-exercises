@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import Count from './components/UseStatePractice.js/Counter' 
 import Counter2 from './components/UseStatePractice.js/Counter2';
@@ -8,6 +9,11 @@ import EffectExample2 from './components/UseEffectPractice/EffectExample2';
 import EffectExample3 from './components/UseEffectPractice/EffectExample3';
 import MouseContainer from './components/UseEffectPractice/MouseContainer';
 import FetchMultiplePosts from './components/dataFetching/FetchMultiplePosts';
+import ComponentC from './Implement context/ComponentC';
+
+export const PriceContext = React.createContext()
+export const ItemContext = React.createContext()
+
 import './App.css';
 
 function App() {
@@ -21,7 +27,13 @@ function App() {
     {/* <EffectExample2/> */}
     {/* <EffectExample3 /> */}
     {/* <MouseContainer/> */}
-    <FetchMultiplePosts/>
+    {/* <FetchMultiplePosts/> */}
+    <PriceContext.Provider value={"$200"}>
+    <ItemContext.Provider value={"Samsung"}>
+    <ComponentC />
+    </ItemContext.Provider>
+    </PriceContext.Provider>
+    
     </div>
   );
 }

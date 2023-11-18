@@ -12,6 +12,7 @@ import FetchMultiplePosts from './components/dataFetching/FetchMultiplePosts';
 import ComponentC from './Implement context/ComponentC';
 import MyCounter1 from './components/useReducerPractice/MyCounter1';
 import MyCounter2 from './components/useReducerPractice/MyCounter2';
+import MyCounter3 from './components/useReducerPractice/MyCounter3';
 
 // //Implement context
 // export const PriceContext = React.createContext()
@@ -39,7 +40,8 @@ function App() {
     </ItemContext.Provider>
     </PriceContext.Provider> */}
     {/* <MyCounter1 /> */}
-    <MyCounter2 />
+    {/* <MyCounter2 /> */}
+    <MyCounter3/>
 
     
     </div>

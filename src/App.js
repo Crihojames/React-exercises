@@ -10,9 +10,11 @@ import EffectExample3 from './components/UseEffectPractice/EffectExample3';
 import MouseContainer from './components/UseEffectPractice/MouseContainer';
 import FetchMultiplePosts from './components/dataFetching/FetchMultiplePosts';
 import ComponentC from './Implement context/ComponentC';
+import MyCounter1 from './components/useReducerPractice/MyCounter1';
 
-export const PriceContext = React.createContext()
-export const ItemContext = React.createContext()
+// //Implement context
+// export const PriceContext = React.createContext()
+// export const ItemContext = React.createContext()
 
 import './App.css';
 
@@ -28,11 +30,15 @@ function App() {
     {/* <EffectExample3 /> */}
     {/* <MouseContainer/> */}
     {/* <FetchMultiplePosts/> */}
+
+    {/* //Implement context
     <PriceContext.Provider value={"$200"}>
     <ItemContext.Provider value={"Samsung"}>
     <ComponentC />
     </ItemContext.Provider>
-    </PriceContext.Provider>
+    </PriceContext.Provider> */}
+    <MyCounter1/>
+
     
     </div>
   );

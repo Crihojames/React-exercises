@@ -13,10 +13,13 @@ import ComponentC from './Implement context/ComponentC';
 import MyCounter1 from './components/useReducerPractice/MyCounter1';
 import MyCounter2 from './components/useReducerPractice/MyCounter2';
 import MyCounter3 from './components/useReducerPractice/MyCounter3';
+import MyMemoCounter from './components/useMemoPratice/MyMemoCounter';
 
 // //Implement context
 // export const PriceContext = React.createContext()
 // export const ItemContext = React.createContext()
+
+
 
 import './App.css';
 
@@ -41,12 +44,13 @@ function App() {
     </PriceContext.Provider> */}
     {/* <MyCounter1 /> */}
     {/* <MyCounter2 /> */}
-    <MyCounter3/>
+    {/* <MyCounter3/> */}
+    <MyMemoCounter />
 
     
     </div>
   );
-}
+}   
 
 export default App;
 

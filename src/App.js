@@ -14,6 +14,8 @@ import MyCounter1 from './components/useReducerPractice/MyCounter1';
 import MyCounter2 from './components/useReducerPractice/MyCounter2';
 import MyCounter3 from './components/useReducerPractice/MyCounter3';
 import MyMemoCounter from './components/useMemoPratice/MyMemoCounter';
+import FocusInput from './components/useRefPractice/FocusInput';
+import Timer from './components/useRefPractice/Timer';
 
 // //Implement context
 // export const PriceContext = React.createContext()
@@ -45,7 +47,10 @@ function App() {
     {/* <MyCounter1 /> */}
     {/* <MyCounter2 /> */}
     {/* <MyCounter3/> */}
-    <MyMemoCounter />
+    {/* <MyMemoCounter /> */}
+    {/* <FocusInput/> */}
+    <Timer />
+
 
     
     </div>
